@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Imgcomp from "./components/Imgcomp";
 import Title from "./components/Title";
 import Skills from "./components/skills";
-import Skill from "./components/Skill";  
+import Skil from "./components/skill/index";  
 import Learning from "./components/Learning";
 import Sobremim from "./components/SobreMim";
 import Projects from "./components/Projects";
@@ -17,7 +17,7 @@ function App() {
         <Title />
         <Imgcomp />
       </div>
-      <Skill />
+      <Skil />
       <Skills />
       <Learning />
       <Sobremim />

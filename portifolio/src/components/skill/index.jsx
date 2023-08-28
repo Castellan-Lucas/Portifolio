@@ -1,7 +1,7 @@
 import React from "react";
 import "./skill.sass";
 
-export default function Skill() {
+export default function Skil() {
   return (
     <div>
       <div className="container-center">
