@@ -1,5 +1,5 @@
 import React from "react";
-import "../skills/Skills.sass";
+import "../skills/skills.sass";
 import Card from "../Card";
 
 export default function Skills() {
