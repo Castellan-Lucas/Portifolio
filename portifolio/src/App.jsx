@@ -1,13 +1,13 @@
 import "./App.sass";
-import Header from "./components/Header";
-import Imgcomp from "./components/Imgcomp";
-import Title from "./components/Title";
+import Header from "./components/Header/index";
+import Imgcomp from "./components/Imgcomp/index";
+import Title from "./components/Title/index";
 import Skills from "./components/skills/index";
 import Skil from "./components/skill/index";  
-import Learning from "./components/Learning";
-import Sobremim from "./components/SobreMim";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import Learning from "./components/Learning/index";
+import Sobremim from "./components/SobreMim/index";
+import Projects from "./components/Projects/index";
+import Footer from "./components/Footer/index";
 
 function App() {
   return (
