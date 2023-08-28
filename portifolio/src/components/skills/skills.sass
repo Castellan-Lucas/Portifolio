@@ -1,0 +1,33 @@
+/* Estilos base */
+.container-pai
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100%
+  height: 500px
+  background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(1, 1, 1, 0.16) 0%, rgba(1, 1, 1, 0.16) 100%)
+
+.container-skills
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 50%
+  height: 50%
+
+.conteudo-skills 
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  gap: 20px
+  width: 50%
+  height: 50%
+
+/* Estilos para telas menores */
+@media (max-width: 768px)
+  .conteudo-skills 
+    width: 100%
+    
+    img
+        width:95%
+        height: 95%

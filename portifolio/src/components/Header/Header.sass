@@ -1,0 +1,102 @@
+/* Estilos para tela maior que 1200px */
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 50px 200px 20px
+  color: #000
+  background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(1, 1, 1, 0.16) 0%, rgba(1, 1, 1, 0.16) 100%)
+
+.logo
+  font-weight: bold
+  font-size: 48px
+  font-family: Inter
+
+.logo a
+  text-decoration: none
+  color: #3D7BF7
+  font-size: 60px
+
+.nav
+  ul
+    font-family: Inter
+    font-size: 20px
+    list-style: none
+    margin: 0
+    padding: 0
+    display: flex
+    gap: 50px
+
+  li
+    margin-bottom: 20px
+
+    a
+      color: #000
+      text-decoration: none
+      transition: color 0.3s
+
+      &:hover
+        color: lightgray
+
+/* Estilos para tela entre 768px e 1200px */
+@media (max-width: 1200px)
+  .header
+    padding: 40px 100px 15px
+
+  .logo
+    font-size: 36px
+
+  .logo a
+    font-size: 48px
+
+  .nav ul
+    font-size: 16px
+
+  .nav li
+    margin-bottom: 10px
+
+/* Estilos para tela menor que 768px */
+@media (max-width: 768px)
+  .header
+    width: 100%
+    text-align: start
+    justify-content: start
+    flex-direction: column
+
+  .logo
+    width: 100%
+    font-size: 24px
+
+  .logo a
+    color: #3D7BF7
+    font-size: 36px
+
+  .nav
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+  .nav ul
+    font-size: 14px
+    list-style: none
+    width: 100%
+
+  .nav li
+    margin: 8px 0
+    text-align: center
+
+/* Estilos para tela menor que 480px */
+@media (max-width: 480px)
+  .logo
+    font-size: 18px
+
+  .logo a
+    font-size: 20px
+
+  .nav
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 150%
+    gap: -30px

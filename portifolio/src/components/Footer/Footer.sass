@@ -1,0 +1,72 @@
+/* Estilos base */
+.footer
+  background-color: #f2f2f2
+  padding: 200px 200px 20px
+  text-align: center
+  height: 150px
+  background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(1, 1, 1, 0.16) 0%, rgba(1, 1, 1, 0.16) 100%)
+
+.footer-content
+  display: flex
+  justify-content: space-between
+  align-items: center
+  max-width: 1200px
+  margin: 0 auto
+
+.footer-social-icons
+  display: flex
+  gap: 30px
+
+.icon 
+  width: 35px
+  height: 35px
+  color: #3D7BF7
+
+.footer-social-icons img
+  width: 30px
+  height: 30px
+
+.footer-text
+  font-family: Sora
+  font-size: 28px
+  font-style: normal
+  font-weight: 700
+  line-height: 36px
+  letter-spacing: 0.25px
+  text-align: left
+
+.footer-bottom
+  margin-top: 60px
+  font-size: 14px
+  color: #888
+
+p 
+  font-family: Inter
+  font-size: 16px
+  font-style: normal
+  font-weight: 400
+  line-height: 24px
+  letter-spacing: 0.25px
+
+/* Estilos para telas menores */
+@media (max-width: 768px)
+  .footer
+    padding: 100px 20px 20px
+    height: auto
+    text-align: center
+
+  .footer-content
+    flex-direction: column
+
+  .footer-social-icons
+    margin-top: 20px
+    flex-wrap: wrap
+    justify-content: center
+
+  .footer-text
+    text-align: center
+    margin-top: 20px
+
+  .footer-bottom
+    margin-top: 30px
+    font-size: 12px
