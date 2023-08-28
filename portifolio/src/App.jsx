@@ -2,7 +2,7 @@ import "./App.sass";
 import Header from "./components/Header";
 import Imgcomp from "./components/Imgcomp";
 import Title from "./components/Title";
-import Skills from "./components/skills";
+import Skills from "./components/skills/index";
 import Skil from "./components/skill/index";  
 import Learning from "./components/Learning";
 import Sobremim from "./components/SobreMim";
