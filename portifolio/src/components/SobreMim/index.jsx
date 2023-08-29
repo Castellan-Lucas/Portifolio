@@ -26,7 +26,7 @@ export default function Sobremim() {
           <Button name={'SAIBA MAIS'}/>
         </div>
         <div className="container-img-">
-          <img className="lucas" src="../public/persona.jpeg"></img>
+          <img className="lucas" src="../public/img/persona.jpeg"></img>
         </div>
       </div>
     </div>
