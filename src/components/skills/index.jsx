@@ -7,7 +7,7 @@ export default function Skills() {
     <div className="container-pai">
       <div className="container-skills">
         <div className="conteudo-skills">
-          <Card nome1={"HTML5"} src="src/assets/Html.svg"/>
+          <Card nome1={"HTML5"} src="src/assets/html.svg"/>
           <Card nome2={"REACT"} src="src/assets/react.svg" />
         </div>
         <div className="conteudo-skills">
