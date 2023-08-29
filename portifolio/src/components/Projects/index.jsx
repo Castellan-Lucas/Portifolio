@@ -8,7 +8,7 @@ export default function Projects() {
       <h1>Projetos</h1>
       <div className="card-container">
         <CardProject
-          src={"../public/img/img-projects/alspace-img.png"}
+          src={"public/img/img-projects/alspace-img.png"}
           name={"Alura-space"}
           desc={
             "Projeto desenvolvido com React.jsx, Next.js,Styled-components, SASS e Framer-motion. Esta que fornece ao usuario uma experiencia de navegação e visualização de planetas e galaxias, podendo filtralas conforme seu interesse."
@@ -18,7 +18,7 @@ export default function Projects() {
         />
 
         <CardProject
-          src1={"../public/img/img-projects/organo.png"}
+          src1={"public/img/img-projects/organo.png"}
           name1={"Organo"}
           desc1={
             "Aplicação densenvolvida com React.js, componentes reutilizaveis, Styled-components, e Framer-motion. Com o objetivo de fornecer ao usuario uma ferramenta para organizar sua equipe de desenvolvimento de software."
@@ -29,7 +29,7 @@ export default function Projects() {
       </div>
       <div className="card-container-">
         <CardProject
-          src2={"../public/img/img-projects/short-img.png"}
+          src2={"public/img/img-projects/short-img.png"}
           name2={"Shortly"}
           desc2={
             "Esta aplicação foi desenvolvida com React.jsx, Sass, Context-api, componentes reutilizaveis. Com o objetivo de fornecer ao usuario uma ferramenta para encurtar links atravéz de uma API externa."
@@ -39,7 +39,7 @@ export default function Projects() {
         />
 
         {/* <CardProject
-          src3={"../public/img-projects/cartao-img.png"}
+          src3={"public/img-projects/cartao-img.png"}
           name3={"Cartao Interativo"}
           desc3={""}
           href={""}
