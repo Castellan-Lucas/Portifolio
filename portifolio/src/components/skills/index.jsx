@@ -7,20 +7,20 @@ export default function Skills() {
     <div className="container-pai">
       <div className="container-skills">
         <div className="conteudo-skills">
-          <Card nome1={"HTML5"} src={"public/img/Html.svg"} />
-          <Card nome2={"REACT"} src="public/img/react.svg" />
+          <Card nome1={"HTML5"} src="src/assets/Html.svg"/>
+          <Card nome2={"REACT"} src="src/assets/react.svg" />
         </div>
         <div className="conteudo-skills">
-          <Card nome3={"CSS3"} src3="public/img/css.svg" />
-          <Card nome4={"TAILWIND"} src4="public/img/tw2.png" />
+          <Card nome3={"CSS3"} src3="src/assets/css.svg" />
+          <Card nome4={"TAILWIND"} src4="src/assets/tw2.png" />
         </div>
         <div className="conteudo-skills">
-          <Card nome5={"SASS"} src5="public/img/sass.svg" />
-          <Card nome6={"GIT"} src6="public/img/git.svg" />
+          <Card nome5={"SASS"} src5="src/assets/sass.svg" />
+          <Card nome6={"GIT"} src6="src/assets/git.svg" />
         </div>
         <div className="conteudo-skills">
-          <Card nome7={"J.SCRIPT"} src7="public/img/js.svg" />
-          <Card nome8={"FIGMA"} src8="public/img/figma.svg" />
+          <Card nome7={"J.SCRIPT"} src7="src/assets/js.svg" />
+          <Card nome8={"FIGMA"} src8="src/assets/figma.svg" />
         </div>
       </div>
     </div>

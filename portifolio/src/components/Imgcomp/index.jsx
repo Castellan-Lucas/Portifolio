@@ -4,7 +4,7 @@ import '../Imgcomp/imgcomp.sass'
 export default function Imgcomp() {
   return (
     <div className="container-img">
-      <img className="img-banner" src="public/img/persona.jpeg"></img>
+      <img className="img-banner" src="src/assets/persona.jpeg"></img>
     </div>
   );
 }

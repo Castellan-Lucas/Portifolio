@@ -14,10 +14,10 @@ export default function Learning() {
       <div className="container-pai-">
         <div className="container-skills-">
           <div className="conteudo-skills-">
-            <CardLearning nome1={"REDUX"}   src="public/img/redux.png"/>
-            <CardLearning nome2={"GO-LANG"} src="public/img/golang.png" />
-            <CardLearning nome3={"NODE.JS"} src3="public/img/node.png" />
-            <CardLearning nome4={"MYSQL"}   src4="public/img/sql.svg" />
+            <CardLearning nome1={"REDUX"}   src="src/assets/redux.png"/>
+            <CardLearning nome2={"GO-LANG"} src="src/assets/golang.png" />
+            <CardLearning nome3={"NODE.JS"} src3="src/assets/node.png" />
+            <CardLearning nome4={"MYSQL"}   src4="src/assets/sql.svg" />
           </div>
         </div>
       </div>

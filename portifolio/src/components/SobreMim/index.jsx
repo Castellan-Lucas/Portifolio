@@ -23,10 +23,10 @@ export default function Sobremim() {
           </p>
           <br></br>
           <br></br>
-          <Button name={'SAIBA MAIS'}/>
+          <Button name={"SAIBA MAIS"} />
         </div>
         <div className="container-img-">
-          <img className="lucas" src="public/img/persona.jpeg"></img>
+          <img className="lucas" src="src/assets/persona.jpeg"></img>
         </div>
       </div>
     </div>
