@@ -1,5 +1,5 @@
 import React from 'react'
-import CardLearning from "../CardLearning/index"
+import {CardLearning} from "../CardLearning/index"
 import '../Learning/Learning.sass'
 
 

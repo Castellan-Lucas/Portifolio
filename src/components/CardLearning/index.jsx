@@ -1,7 +1,7 @@
 import React from "react";
 import "../CardLearning/CardLearning.sass";
 
-export default function CardLearning({ src, nome }) {
+export function CardLearning({ src, nome }) {
   return (
     <div>
       <div className="container-">
