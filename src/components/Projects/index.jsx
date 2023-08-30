@@ -39,8 +39,8 @@ export default function Projects() {
         />
 
         {/* <CardProject
-          src3={"src/assets/cartao-img.png"}
-          name3={"Cartao Interativo"}
+          src={"assets/img/cartao-img.png"}
+          name={"Cartao Interativo"}
           desc3={""}
           href={""}
           url3={""}
