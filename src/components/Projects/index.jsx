@@ -18,32 +18,32 @@ export default function Projects() {
         />
 
         <CardProject
-          src1={"assets/img/organo.png"}
-          name1={"Organo"}
-          desc1={
+          src={"assets/img/organo.png"}
+          name={"Organo"}
+          desc={
             "Aplicação densenvolvida com React.js, componentes reutilizaveis, Styled-components, e Framer-motion. Com o objetivo de fornecer ao usuario uma ferramenta para organizar sua equipe de desenvolvimento de software."
           }
           href={"https://organo-mu-eight.vercel.app/ "}
-          url1={"https://github.com/Castellan-Lucas/Organo"}
+          url={"https://github.com/Castellan-Lucas/Organo"}
         />
       </div>
       <div className="card-container-">
         <CardProject
-          src2={"assets/img/short-img.png"}
-          name2={"Shortly"}
-          desc2={
+          src={"assets/img/short-img.png"}
+          name={"Shortly"}
+          desc={
             "Esta aplicação foi desenvolvida com React.jsx, Sass, Context-api, componentes reutilizaveis. Com o objetivo de fornecer ao usuario uma ferramenta para encurtar links atravéz de uma API externa."
           }
           href={"https://link-shortener-dc15.vercel.app/"}
-          url2={"https://github.com/Castellan-Lucas/link-shortener"}
+          url={"https://github.com/Castellan-Lucas/link-shortener"}
         />
 
         {/* <CardProject
           src={"assets/img/cartao-img.png"}
           name={"Cartao Interativo"}
-          desc3={""}
+          desc={""}
           href={""}
-          url3={""}
+          url={""}
         /> */}
       </div>
     </div>

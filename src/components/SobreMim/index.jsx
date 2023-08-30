@@ -3,7 +3,14 @@ import '../SobreMim/SobreMim.sass'
 import Button from '../Button';
 
 export default function Sobremim() {
-  return (
+
+  const link = () => {
+    onclick = window.open(
+      "https://drive.google.com/file/d/1zcrqZZ0OFYR-GF8B-ihTnM78ml1UhBpN/view?usp=drive_link",
+      "_blank"
+    );
+  }
+    return (
     <div className="global">
       <div className="container-sobre">
         <div className="container-cont-p">
@@ -23,7 +30,7 @@ export default function Sobremim() {
           </p>
           <br></br>
           <br></br>
-          <Button name={"SAIBA MAIS"} />
+            <Button url={link} name={"SAIBA MAIS"} />
         </div>
         <div className="container-img-">
           <img className="lucas" src="assets/img/persona.jpeg"></img>

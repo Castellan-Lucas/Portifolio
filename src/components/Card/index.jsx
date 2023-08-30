@@ -10,15 +10,10 @@ export default function Card({
       <div className="container">
         <div className="box">
           <div className="content">
-            <img
-              src={src}
-              alt="Imagem"
-            />
+            <img src={src} alt="Imagem" />
           </div>
         </div>
-        <p className="nomes">
-          {nome}
-        </p>
+        <p className="nomes">{nome}</p>
       </div>
     </div>
   );

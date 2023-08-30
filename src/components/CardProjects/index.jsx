@@ -3,26 +3,24 @@ import "./CardProjects.sass";
 import Button from "../Button";
 
 export default function CardProject({
-  src,src1,src2,src3,
-  name,name1,name2, name3,
-  desc,desc1,desc2,desc3,
-  href,href1,href2,href3,
-  url,url1,url2,url3,
+  src,name,desc,href,url,
 }) {
   return (
     <div className="content-card">
       <div className="card-project">
-        <a href={href || href1 || href2 }>
-          <img src={src || src1 || src2 } alt="Project" />
+        <a href={href}>
+          <img src={src} alt="Project" />
         </a>
-        <h3>{name || name1 || name2 || name3}</h3>
-        <p className="paragrafo">{desc || desc1 || desc2 }</p>
+        <h3>{name}</h3>
+        <p className="paragrafo">{desc}</p>
         <div className="content-button">
           <Button
             name={"View Project"}
-            href={href || href1 || href2 }
+            href={href}
+            target="_blank"
+            class="external-link"
           />
-          <a className="btn" href={url || url1 || url2 }>
+          <a className="btn" href={url}>
             Ir ao Projeto
           </a>
         </div>
