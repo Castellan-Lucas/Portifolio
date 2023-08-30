@@ -8,7 +8,7 @@ export default function Projects() {
       <h1>Projetos</h1>
       <div className="card-container">
         <CardProject
-          src={"src/assets/img/alspace-img.png"}
+          src={"assets/img/alspace-img.png"}
           name={"Alura-space"}
           desc={
             "Projeto desenvolvido com React.jsx, Next.js,Styled-components, SASS e Framer-motion. Esta que fornece ao usuario uma experiencia de navegação e visualização de planetas e galaxias, podendo filtralas conforme seu interesse."
@@ -18,7 +18,7 @@ export default function Projects() {
         />
 
         <CardProject
-          src1={"src/assets/img/organo.png"}
+          src1={"assets/img/organo.png"}
           name1={"Organo"}
           desc1={
             "Aplicação densenvolvida com React.js, componentes reutilizaveis, Styled-components, e Framer-motion. Com o objetivo de fornecer ao usuario uma ferramenta para organizar sua equipe de desenvolvimento de software."
@@ -29,7 +29,7 @@ export default function Projects() {
       </div>
       <div className="card-container-">
         <CardProject
-          src2={"src/assets/img/short-img.png"}
+          src2={"assets/img/short-img.png"}
           name2={"Shortly"}
           desc2={
             "Esta aplicação foi desenvolvida com React.jsx, Sass, Context-api, componentes reutilizaveis. Com o objetivo de fornecer ao usuario uma ferramenta para encurtar links atravéz de uma API externa."

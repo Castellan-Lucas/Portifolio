@@ -7,20 +7,20 @@ function Skills() {
     <div className="container-pai">
       <div className="container-skills">
         <div className="conteudo-skills">
-          <Card nome={"HTML5"} src="src/assets/html.svg"/>
-          <Card nome={"REACT"} src="src/assets/react.svg" />
+          <Card nome={"HTML5"} src="assets/svg/html.svg" />
+          <Card nome={"REACT"} src="assets/svg/react.svg" />
         </div>
         <div className="conteudo-skills">
-          <Card nome={"CSS3"} src="src/assets/css.svg" />
-          <Card nome={"TAILWIND"} src="src/assets/tw2.png" />
+          <Card nome={"CSS3"} src="assets/svg/css.svg" />
+          <Card nome={"TAILWIND"} src="assets/img/tw2.png" />
         </div>
         <div className="conteudo-skills">
-          <Card nome={"SASS"} src="src/assets/sass.svg" />
-          <Card nome={"GIT"} src="src/assets/git.svg" />
+          <Card nome={"SASS"} src="assets/svg/sass.svg" />
+          <Card nome={"GIT"} src="assets/svg/git.svg" />
         </div>
         <div className="conteudo-skills">
-          <Card nome={"J.SCRIPT"} src="src/assets/js.svg" />
-          <Card nome={"FIGMA"} src="src/assets/figma.svg" />
+          <Card nome={"J.SCRIPT"} src="assets/svg/js.svg" />
+          <Card nome={"FIGMA"} src="assets/svg/figma.svg" />
         </div>
       </div>
     </div>
