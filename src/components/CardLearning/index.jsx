@@ -1,7 +1,7 @@
 import React from "react";
 import "../CardLearning/CardLearning.sass";
 
-export function CardLearning({ src, nome }) {
+function CardLearning({ src, nome }) {
   return (
     <div>
       <div className="container-">
@@ -15,3 +15,4 @@ export function CardLearning({ src, nome }) {
     </div>
   );
 }
+export default CardLearning;

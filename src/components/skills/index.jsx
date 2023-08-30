@@ -2,7 +2,7 @@ import React from "react";
 import "../skills/skills.sass";
 import Card from "../Card";
 
-export default function Skills() {
+function Skills() {
   return (
     <div className="container-pai">
       <div className="container-skills">
@@ -26,3 +26,4 @@ export default function Skills() {
     </div>
   );
 }
+export default Skills;
