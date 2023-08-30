@@ -8,6 +8,7 @@
   background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(1, 1, 1, 0.16) 0%, rgba(1, 1, 1, 0.16) 100%)
 
 .logo
+  width: 100%
   font-weight: bold
   font-size: 48px
   font-family: Inter
@@ -89,14 +90,22 @@
 /* Estilos para tela menor que 480px */
 @media (max-width: 480px)
   .logo
+    width: 340px
     font-size: 18px
+    marign-left: 10px
 
   .logo a
     font-size: 20px
+    left: 10px
 
   .nav
     display: flex
     flex-direction: column
     align-items: center
-    width: 150%
+    width: 196%
     gap: -30px
+    
+    ul
+      li
+        a
+          font-size: 15px
