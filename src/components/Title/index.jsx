@@ -18,20 +18,17 @@ export default function Title() {
         repellendusnemo?
       </a>
       <div className="container-icons">
-        <a>
-          <FaGithubSquare
-            className="icon"
-            href="https://github.com/Castellan-Lucas"
-          />
-          <FaLinkedin
-            className="icon"
-            href="https://www.linkedin.com/in/lucas-castellan-4a6b68238/"
-          />
+        <a className="icon-a" href="https://github.com/Castellan-Lucas">
+          <FaGithubSquare className="icon" />
+        </a>
+        <a
+          className="icon-a"
+          href="https://www.linkedin.com/in/lucas-castellan-4a6b68238/"
+        >
+          <FaLinkedin className="icon" />
         </a>
       </div>
-      
-    </div>    
-    
+    </div>
   );
 }
  
