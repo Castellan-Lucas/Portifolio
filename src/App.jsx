@@ -14,14 +14,14 @@ function App() {
     <>
       <Header />
       <div className="container-banner">
-        <Title />
+        <Title id="home" />
         <Imgcomp />
       </div>
-      <Skil />
-      <Skills />
+      <Skil id="skil"/>
+      <Skills/>
       <Learning />
-      <Sobremim />
-      <Projects />
+      <Sobremim id="resumo" />
+      <Projects id="projetos" />
       <Footer />
     </>
   );

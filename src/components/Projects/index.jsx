@@ -2,9 +2,9 @@ import React from "react";
 import "../Projects/Projects.sass";
 import CardProject from "../CardProjects";
 
-export default function Projects() {
+export default function Projects(props) {
   return (
-    <div className="container-projects">
+    <div id={props.id} className="container-projects">
       <h1>Projetos</h1>
       <div className="card-container">
         <CardProject

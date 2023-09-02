@@ -3,9 +3,10 @@ import '../Title/Title.sass'
 import { FaGithubSquare } from 'react-icons/fa'
 import { FaLinkedin } from "react-icons/fa";
 
-export default function Title() {
+export default function Title(props) {
   return (
-    <div className="container-title">
+    <div id={props.id} className="container-title">
+      <div className='container-p'>
       <h1>
         Ola, sou <br />
         Lucas Castellan
@@ -13,10 +14,10 @@ export default function Title() {
 
       <h3>Desenvolvedor Front-End</h3>
 
-      <a>
-        Lorem ipsum dolor sit amet consectetur adipisicing m modi
-        repellendusnemo?
+      <a className='desc'>
+        Saiba mais sobre minha jornada no mundo do desenvolvimento web e minhas paixões por criação de interfaces incríveis e experiências digitais envolventes.
       </a>
+    </div>
       <div className="container-icons">
         <a className="icon-a" href="https://github.com/Castellan-Lucas">
           <FaGithubSquare className="icon" />
